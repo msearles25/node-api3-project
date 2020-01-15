@@ -66,6 +66,7 @@ router.put('/:id', (req, res) => {
       console.log(error);
       res.status(500).json({ message: 'Post does not exist!'});
     })
+    
 });
 
 // custom middleware
